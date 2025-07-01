@@ -33,13 +33,15 @@ No server needed. This is a purely front-end project!
 - 🌒 Toggle for light/dark theme
 - 🧩 Convert to React/Vue for reusable components
 
-🛠️ Tech Stack
-| Technology | Use | 
-| HTML5 | Page structure | 
-| CSS3 | Styling and responsive layout | 
-| JavaScript | Dynamic scrolling, image rotation, interactivity | 
-| Font Awesome | Icons | 
-| Unsplash | Placeholder images | 
+### 🛠️ Tech Stack
+
+| Technology       | Purpose                                              |
+|------------------|------------------------------------------------------|
+| **HTML5**        | Page structure and semantic layout                   |
+| **CSS3**         | Styling, layout, transitions, and responsiveness     |
+| **JavaScript**   | Interactivity: scroll buttons, auto-rotating banner |
+| **Font Awesome** | Iconography for navigation and interaction           |
+| **Unsplash**     | Placeholder image sourcing for dynamic visuals       |
 
 
 
