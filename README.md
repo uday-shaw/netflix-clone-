@@ -21,7 +21,7 @@ Netflix-Clone/
 
 🚀 How to Run
 - Clone or download this repository:
-git clone https://github.com/your-username/netflix-clone.git
+git clone https://github.com/uday-shaw/netflix-clone.git
 - Open index.html in your browser.
 - Make sure image paths are correct or update them inside net.js.
 No server needed. This is a purely front-end project!
