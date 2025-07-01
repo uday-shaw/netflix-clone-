@@ -1,1 +1,48 @@
 # netflix-clone-
+🎬 Netflix-Inspired Web UI
+This project is a responsive and interactive Netflix-style landing page built using HTML, CSS, and JavaScript. It emulates the design and functionality of a modern video streaming platform, featuring scrollable content rows, a dynamic featured section, and clean navigation.
+
+🌟 Features
+- 🔥 Hero Banner with rotating background images
+- 🎞️ Scrollable Movie Carousels with left/right navigation buttons
+- 🖱️ Hover Effects for interactive movie posters
+- 🎯 Responsive Layout that scales across devices
+- ♿ Accessibility Enhancements (ARIA labels, semantic structure)
+- 🎨 Custom styling with support for dark theme tone
+📂 Project Structure
+Netflix-Clone/
+├── index.html           # Main HTML file
+├── net.css              # Stylesheet
+├── net.js               # JavaScript for interaction
+├── images/              # Folder for banner/poster assets
+└── README.md            # Project overview and documentation
+
+
+
+🚀 How to Run
+- Clone or download this repository:
+git clone https://github.com/your-username/netflix-clone.git
+- Open index.html in your browser.
+- Make sure image paths are correct or update them inside net.js.
+No server needed. This is a purely front-end project!
+
+
+💡 Future Enhancements
+- 🎥 Integrate The Movie Database API (TMDB)
+- 🔐 User authentication and personalized watchlists
+- 🌒 Toggle for light/dark theme
+- 🧩 Convert to React/Vue for reusable components
+
+🛠️ Tech Stack
+| Technology | Use | 
+| HTML5 | Page structure | 
+| CSS3 | Styling and responsive layout | 
+| JavaScript | Dynamic scrolling, image rotation, interactivity | 
+| Font Awesome | Icons | 
+| Unsplash | Placeholder images | 
+
+
+
+📄 License
+This project is licensed under the MIT License. Feel free to use and modify it.
+
