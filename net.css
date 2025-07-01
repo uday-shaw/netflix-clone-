@@ -50,7 +50,6 @@ body {
 /* Featured Section */
 .featured {
   height: 90vh;
-  background-image: url('https://source.unsplash.com/1600x900/?movie');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -59,6 +58,7 @@ body {
   align-items: center;
   padding: 0 20px;
   text-align: center;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .featured h1 {
@@ -76,6 +76,7 @@ body {
 /* Category Rows */
 .category {
   padding: 60px 30px 30px;
+  position: relative;
 }
 
 .category h2 {
@@ -90,6 +91,7 @@ body {
   overflow-x: auto;
   scroll-behavior: smooth;
   padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
 }
 
 .category .row::-webkit-scrollbar {
@@ -105,6 +107,7 @@ body {
   background-position: center;
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  scroll-snap-align: start;
 }
 
 .category .movie:hover {
@@ -125,10 +128,19 @@ body {
   cursor: pointer;
   border-radius: 50%;
   transition: background-color 0.3s ease;
+  z-index: 10;
 }
 
 .scroll-btn:hover {
   background-color: rgba(255, 255, 255, 0.25);
+}
+
+.scroll-btn.left {
+  left: 10px;
+}
+
+.scroll-btn.right {
+  right: 10px;
 }
 
 /* Footer */
